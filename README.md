@@ -94,7 +94,7 @@ python3 train.py \
 | ----------- | ---------------------------------------- |
 | **sMAPE**   | Symmetric Mean Absolute Percentage Error |
 | **R²**      | Coefficient of determination             |
-| **E_Acc≠0** | Accuracy excluding zero targets          |
+| **E_Acc≠0** | Non-Zero Disaggregation Accuracy         |
 | **CRPS**    | Continuous Ranked Probability Score      |
 | **MAE**     | Mean absolute error                      |
 
