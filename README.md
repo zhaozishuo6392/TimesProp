@@ -15,7 +15,7 @@ TimesProp/
 ├── kit.py                  # Hierarchical reconciliation methods
 ├── nom_tool.py             # Data scaling tools
 ├── timesprop_tool.py       # Period-aware feature blocks
-└── data/                   # Dataset CSV files (e.g., nz01.csv, nz23.csv)
+└── data/                   # Example data files (e.g., nz01.csv, nz23.csv)
 ```
 
 ---
@@ -77,7 +77,7 @@ python3 train.py \
 | `--path`       | Dataset filename (inside `/workspace/data`)                  | **required**        |
 | `--H`          | Input history length (sequence length)                       | 168                 |
 | `--batch_size` | Batch size                                                   | 64                  |
-| `--repeat`     | Number of repeated training runs                             | 3                   |
+| `--repeat`     | Number of training runs                                      | 3                   |
 | `--lr`         | Learning rate                                                | 1e-4                |
 | `--p`          | Early stopping patience                                      | 3                   |
 | `--dist`       | Distribution type (`D`, `GD`, `BL`, `SD`, `SSD`)             | **required**        |
@@ -96,6 +96,6 @@ python3 train.py \
 | **R²**      | Coefficient of determination             |
 | **E_Acc≠0** | Accuracy excluding zero targets          |
 | **CRPS**    | Continuous Ranked Probability Score      |
-| **MAE **    | Mean absolute error                      |
+| **MAE**     | Mean absolute error                      |
 
 ---
