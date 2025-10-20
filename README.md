@@ -35,8 +35,6 @@ TimesProp/
    pip install -r requirements.txt
    ```
 
-   _(Dependencies: `torch`, `numpy`, `pandas`, `scipy`, `tqdm`, `matplotlib`, etc.)_
-
 3. **Prepare dataset:**
    Place CSV files in:
    ```
