@@ -10,12 +10,12 @@ TimesProp/
 │
 ├── train.py                # Main training script
 ├── timesprop.py            # Core model definition
-├── metrics.py              # Evaluation metrics (MAE, sMAPE, R², CRPS, etc.)
+├── metrics.py              # Evaluation metrics
 ├── Losses.py               # Distribution-based loss functions
 ├── kit.py                  # Hierarchical reconciliation methods
 ├── nom_tool.py             # Data scaling tools
 ├── timesprop_tool.py       # Period-aware feature blocks
-└── data/                   # Example data files (e.g., nz01.csv, nz23.csv)
+└── data/                   # Example data files (e.g., nz21.csv, nz23.csv)
 ```
 
 ---
